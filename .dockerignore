@@ -1,0 +1,44 @@
+# The Dockerfile is multi-stage and installs its own dependencies:
+#   COPY package*.json ./  ->  RUN npm ci  ->  COPY . .
+# so the host's node_modules is never needed in the build context.
+#
+# Shipping it is not just wasted upload on every deploy. `COPY . .` layers the
+# host's macOS arm64 native binaries (lightningcss, @rolldown, @rollup,
+# @tailwindcss/oxide, @img/sharp) on top of the linux ones npm ci just
+# installed. That builds only because the linux binaries survive the overlay —
+# a broken build waiting for one of them to resolve the wrong way, and it would
+# reproduce on no machine but an arm64 Mac.
+node_modules
+
+# Regenerated inside the builder by `npm run build`.
+dist
+.astro
+.output
+build
+
+# Agent scratch. Claude Code worktrees live here with their OWN node_modules —
+# one abandoned worktree was 279 MB. .gitignore already covers this, so git
+# stays clean while Docker uploads it anyway; the two ignore files are not the
+# same fact and must both be told.
+.claude
+
+# Never needs to reach the builder. .kin carries a SQLite code-graph store that
+# has no business inside a site image.
+.kin
+.git
+.github
+.gitignore
+.gitattributes
+.dockerignore
+README.md
+fly.toml
+
+# Local noise.
+.DS_Store
+*.log
+npm-debug.log*
+.env
+.env.*
+.vscode
+.idea
+coverage

@@ -4,7 +4,7 @@
     "javascript",
     "typescript"
   ],
-  "node_count": 427,
+  "node_count": 434,
   "nodes": [
     {
       "domains": [
@@ -363,6 +363,17 @@
         "code",
         "javascript"
       ],
+      "id": "code-sym-exemplar-tools-10561906f125",
+      "title": "Kd.anonymousFunction6ddcfe7d0700.O",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:32:33",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "javascript"
+      ],
       "id": "code-sym-exemplar-tools-10d14b5473a7",
       "title": "A.unstable_next.se.jn.xn.Ui.pa.Vi",
       "type": "concept",
@@ -477,6 +488,17 @@
       "title": "Le",
       "type": "concept",
       "updated_at": "2026-05-30T14:56:10",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "javascript"
+      ],
+      "id": "code-sym-exemplar-tools-19edfc4779c4",
+      "title": "Kd.anonymousFunction6ddcfe7d0100.Ya",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:32:33",
       "weight": 0.5
     },
     {
@@ -1727,6 +1749,17 @@
         "code",
         "javascript"
       ],
+      "id": "code-sym-exemplar-tools-52f25cf8a917",
+      "title": "hn.updateFinished.wi.Vi.iterationDuration.ha._i.pl.unmount.nu.mo.AnonymousClass2d3f7a114201",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:32:33",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "javascript"
+      ],
       "id": "code-sym-exemplar-tools-54020bf50396",
       "title": "hn.updateFinished.wi.Vi.iterationDuration.ha.onKeyframesResolved.Bi",
       "type": "concept",
@@ -2193,6 +2226,17 @@
       "title": "nn.constructor.Ft",
       "type": "concept",
       "updated_at": "2026-05-30T14:56:10",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "javascript"
+      ],
+      "id": "code-sym-exemplar-tools-6f0a1bf6a13e",
+      "title": "Kd.anonymousFunction6ddcfe7d0100.Gl",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:32:33",
       "weight": 0.5
     },
     {
@@ -3564,6 +3608,17 @@
         "code",
         "javascript"
       ],
+      "id": "code-sym-exemplar-tools-c1bc36e1dc9a",
+      "title": "Kd.anonymousFunction6ddcfe7d0100.S",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:32:33",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "javascript"
+      ],
       "id": "code-sym-exemplar-tools-c1c2991a4349",
       "title": "Lv",
       "type": "concept",
@@ -4114,6 +4169,17 @@
         "code",
         "javascript"
       ],
+      "id": "code-sym-exemplar-tools-dab8633f2990",
+      "title": "Kd.anonymousFunction6ddcfe7d0100.J",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:32:33",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "javascript"
+      ],
       "id": "code-sym-exemplar-tools-dc64fd6b47ef",
       "title": "Kd.Wf",
       "type": "concept",
@@ -4488,6 +4554,17 @@
         "code",
         "javascript"
       ],
+      "id": "code-sym-exemplar-tools-f3db9c79cc0e",
+      "title": "Kd.anonymousFunction6ddcfe7d0100.Ct",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:32:33",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "javascript"
+      ],
       "id": "code-sym-exemplar-tools-f4fafcb29b94",
       "title": "Kd.wf.Cm.Xm",
       "type": "concept",
@@ -4705,6 +4782,5 @@
     }
   ],
   "repo": "exemplar-tools",
-  "source_updated_at": "2026-05-30T14:56:10",
   "version": 1
 }
