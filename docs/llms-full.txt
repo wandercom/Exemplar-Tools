@@ -4,6 +4,8 @@ The engineering stack that governs itself.
 
 **[exemplar.tools](https://exemplar.tools)**
 
+Core tooling is maintained by Wander (https://github.com/wandercom/exemplar-stack). Signet, Herald, and Stigmergy remain independent projects; repository links identify their current homes.
+
 ## What is this?
 
 Exemplar is the umbrella site for a 23-tool open-source engineering stack
