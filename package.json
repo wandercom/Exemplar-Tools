@@ -11,9 +11,9 @@
     "verify:copy": "node scripts/verify-copy-counts.mjs"
   },
   "dependencies": {
-    "@astrojs/react": "^5.0.1",
+    "@astrojs/react": "^6.0.5",
     "@tailwindcss/vite": "^4.2.2",
-    "astro": "^6.0.8",
+    "astro": "^7.3.2",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.0.1",
     "react": "^19.2.4",
