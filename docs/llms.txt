@@ -69,9 +69,9 @@ The stack is built on 26 active research papers and 8 books by Jeremy McEntire, 
 ## Links
 
 - Website: https://exemplar.tools
-- GitHub: https://github.com/jmcentire
+- GitHub: https://github.com/wandercom
 - Signet: https://signet.tools
 - Kindex: https://kindex.tools
 - Research: https://perardua.dev
-- Author: Jeremy McEntire (https://perardua.dev)
+- Maintainer: Wander (https://github.com/wandercom)
 - License: MIT

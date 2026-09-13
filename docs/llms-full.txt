@@ -154,9 +154,9 @@ A machine-readable capability descriptor is available at
 ### Links
 
 - Website: https://exemplar.tools
-- GitHub: https://github.com/jmcentire
+- GitHub: https://github.com/wandercom
 - Signet: https://signet.tools
 - Kindex: https://kindex.tools
 - Research: https://perardua.dev
-- Author: Jeremy McEntire (https://perardua.dev)
+- Maintainer: Wander (https://github.com/wandercom)
 - License: MIT
