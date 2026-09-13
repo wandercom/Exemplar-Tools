@@ -212,7 +212,7 @@ export default function Pipeline() {
                   <span className="font-mono text-[11px] text-optimize uppercase tracking-widest">Optimization Layer</span>
                   <span className="text-xs text-muted ml-3">Transmogrifier — register-aware prompt normalization across Constrain, Pact, and all downstream LLM calls</span>
                 </div>
-                <a href="https://github.com/jmcentire/transmogrifier" target="_blank" rel="noopener noreferrer" className="text-optimize hover:text-optimize/80 transition-colors">
+                <a href="https://github.com/wandercom/transmogrifier" target="_blank" rel="noopener noreferrer" className="text-optimize hover:text-optimize/80 transition-colors">
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
               </div>
